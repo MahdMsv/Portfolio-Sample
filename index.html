@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahdi Mousavi — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Mahdi Mousavi — Frontend Developer building fast, accessible, beautifully crafted interfaces."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#hero" class="logo"
+          ><span class="logo-dot"></span>Mahdi Mousavi</a
+        >
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-close-link">About</a></li>
+          <li><a href="#projects" class="nav-close-link">Projects</a></li>
+          <li><a href="#skills" class="nav-close-link">Skills</a></li>
+          <li><a href="#contact" class="nav-close-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="icon-moon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+            <svg
+              class="icon-sun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+              />
+            </svg>
+          </button>
+          <a href="#contact" class="btn btn-primary btn-sm">Contact Me</a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="spotlight" id="spotlight"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow reveal in-view"
+            >Frontend Developer · Available for work</span
+          >
+          <h1 class="hero-name reveal in-view reveal-delay-1">
+            Mahdi<br /><span class="gradient-text">Mousavi</span>
+          </h1>
+          <div class="hero-role reveal in-view reveal-delay-2">
+            <span id="typedRole">Frontend Developer</span
+            ><span class="cursor"></span>
+          </div>
+          <p class="hero-text reveal in-view reveal-delay-2">
+            I design and build fast, accessible interfaces where clean code
+            meets thoughtful motion — turning ambitious ideas into products that
+            feel effortless to use.
+          </p>
+          <div class="hero-actions reveal in-view reveal-delay-3">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+          <div class="hero-meta reveal in-view reveal-delay-4">
+            <div><strong>1+</strong><span>Years experience</span></div>
+            <div><strong>30+</strong><span>Projects shipped</span></div>
+            <div><strong>12</strong><span>Happy clients</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal in-view reveal-delay-2">
+          <div class="code-card">
+            <div class="code-head">
+              <span class="code-dot"></span><span class="code-dot"></span
+              ><span class="code-dot"></span>
+              <span class="code-file">Hero.jsx</span>
+            </div>
+            <div class="code-body" id="codeTyped"></div>
+          </div>
+          <div class="float-badge badge-1">
+            <span class="badge-dot"></span> Build passing
+          </div>
+          <div class="float-badge badge-2">⚡ 98 Lighthouse</div>
+        </div>
+      </div>
+
+      <div class="scroll-cue">
+        <span>Scroll</span><span class="line"></span>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-bio">
+            <span class="eyebrow reveal">About Me</span>
+            <h2
+              class="reveal reveal-delay-1"
+              style="margin-top: 16px; font-size: clamp(1.9rem, 3.6vw, 2.6rem)"
+            >
+              Crafting interfaces with code &amp; care
+            </h2>
+            <div style="margin-top: 24px">
+              <p class="reveal reveal-delay-2">
+                <strong>I'm Mahdi</strong> — a frontend developer who loves the
+                space where design and engineering meet. I care about the
+                details recruiters notice in a second look: consistent spacing,
+                honest motion, and interfaces that respond the way people expect
+                them to.
+              </p>
+              <p class="reveal reveal-delay-3">
+                My toolkit centers on <strong>React</strong> and modern CSS, but
+                the real work is translating a rough idea into a system of
+                components that's fast, accessible, and easy to maintain long
+                after launch.
+              </p>
+            </div>
+          </div>
+
+          <div class="reveal reveal-delay-2">
+            <div class="skill-icons">
+              <div class="skill-tile">
+                <svg viewBox="0 0 24 24" fill="#e34c26">
+                  <path
+                    d="M3.5 2h17l-1.55 17.5L12 21.8l-6.95-2.3L3.5 2zm14.7 4.1H7.1l.2 2.2h10.6l-.6 6.6-5.3 1.5-5.3-1.5-.35-3.9h2.2l.18 1.95 3.27.9 3.27-.9.3-3.35H6.55l-.65-7.2h13.2l-.9 1.7z"
+                  />
+                </svg>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-tile">
+                <svg viewBox="0 0 24 24" fill="#1572b6">
+                  <path
+                    d="M3.5 2h17l-1.55 17.5L12 21.8l-6.95-2.3L3.5 2zm4.4 4.05.25 2.85h8.5l-.28 3.1H8.4l.25 2.8h7.45l-.42 4.5-3.68 1.05-3.68-1.05-.24-2.65H5l.42 4.9L12 20.7l6-1.65.85-9.15H8.15l-.1-1.15h8.9l.25-2.7H7.9z"
+                  />
+                </svg>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-tile">
+                <svg viewBox="0 0 24 24" fill="#38bdf8">
+                  <path
+                    d="M12 6c-2.67 0-4.33 1.33-5 4 1-1.33 2.17-1.83 3.5-1.5.76.19 1.31.74 1.91 1.35.99 1 2.13 2.15 4.59 2.15 2.67 0 4.33-1.33 5-4-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.31-.74-1.91-1.35C15.6 7.15 14.46 6 12 6zM7 12c-2.67 0-4.33 1.33-5 4 1-1.33 2.17-1.83 3.5-1.5.76.19 1.31.74 1.91 1.35.99 1 2.13 2.15 4.59 2.15 2.67 0 4.33-1.33 5-4-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.31-.74-1.91-1.35-.99-1-2.13-2.15-4.59-2.15z"
+                  />
+                </svg>
+                <span>Tailwind</span>
+              </div>
+              <div class="skill-tile">
+                <svg viewBox="0 0 24 24" fill="#f7df1e">
+                  <path
+                    d="M2 2h20v20H2V2zm10.5 15.6c.3.6.9 1.05 1.8 1.05.85 0 1.35-.4 1.35-.95 0-.65-.5-.9-1.35-1.25l-.45-.2c-1.3-.55-2.15-1.25-2.15-2.7 0-1.35 1.05-2.35 2.65-2.35 1.15 0 1.95.4 2.55 1.4l-1.4.9c-.3-.55-.65-.75-1.15-.75-.5 0-.85.3-.85.75 0 .55.35.75 1.15 1.1l.45.2c1.5.65 2.35 1.35 2.35 2.85 0 1.6-1.25 2.5-2.95 2.5-1.65 0-2.75-.8-3.25-1.8l1.35-.75zm-4.85.15c.25.45.5.85 1.05.85.55 0 .9-.2.9-1.05v-5.9h1.75v5.95c0 1.9-1.1 2.75-2.7 2.75-1.45 0-2.35-.75-2.75-1.6l1.75-.9z"
+                  />
+                </svg>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-tile">
+                <svg viewBox="0 0 24 24" fill="#61dafb">
+                  <circle cx="12" cy="12" r="2.2" />
+                  <g fill="none" stroke="#61dafb" stroke-width="1">
+                    <ellipse cx="12" cy="12" rx="10" ry="4.2" />
+                    <ellipse
+                      cx="12"
+                      cy="12"
+                      rx="10"
+                      ry="4.2"
+                      transform="rotate(60 12 12)"
+                    />
+                    <ellipse
+                      cx="12"
+                      cy="12"
+                      rx="10"
+                      ry="4.2"
+                      transform="rotate(120 12 12)"
+                    />
+                  </g>
+                </svg>
+                <span>React</span>
+              </div>
+              <div class="skill-tile">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#8b93a7"
+                  stroke-width="1.6"
+                >
+                  <path d="M12 2l9 4.5v9L12 20l-9-4.5v-9L12 2z" />
+                  <path d="M12 8v8M8.5 6l7 12M15.5 6l-7 12" />
+                </svg>
+                <span>Git &amp; Tools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Selected Work</span>
+          <h2 class="reveal reveal-delay-1">
+            Projects I'm proud to have shipped
+          </h2>
+          <p class="reveal reveal-delay-2">
+            A mix of product interfaces, marketing sites, and dashboards — each
+            one built for real users under real constraints.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-thumb">
+              <div class="thumb-bg thumb-1"></div>
+              <div class="thumb-grid"></div>
+              <div class="thumb-overlay">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                >
+                  <rect x="3" y="4" width="18" height="14" rx="2" />
+                  <path d="M3 9h18M8 4v5" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Nova Analytics Dashboard</h3>
+              <p>
+                A real-time analytics dashboard with customizable widgets,
+                dark-mode charts, and sub-second data refresh.
+              </p>
+              <div class="tech-tags">
+                <span>React</span><span>Tailwind</span><span>Recharts</span>
+              </div>
+              <a href="#" class="project-link"
+                >View project
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" /></svg
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card reveal reveal-delay-1">
+            <div class="project-thumb">
+              <div class="thumb-bg thumb-2"></div>
+              <div class="thumb-grid"></div>
+              <div class="thumb-overlay">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                >
+                  <path d="M4 19h16M4 15l4-4 3 3 5-6 4 5" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Orbit Commerce Storefront</h3>
+              <p>
+                A conversion-focused storefront with animated product
+                transitions and a sub-1s Lighthouse-verified load time.
+              </p>
+              <div class="tech-tags">
+                <span>Next.js</span><span>Stripe</span
+                ><span>Framer Motion</span>
+              </div>
+              <a href="#" class="project-link"
+                >View project
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" /></svg
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card reveal reveal-delay-2">
+            <div class="project-thumb">
+              <div class="thumb-bg thumb-3"></div>
+              <div class="thumb-grid"></div>
+              <div class="thumb-overlay">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="1.5"
+                >
+                  <rect x="4" y="3" width="16" height="18" rx="2" />
+                  <path d="M8 8h8M8 12h8M8 16h5" />
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Fieldnote Docs Platform</h3>
+              <p>
+                A documentation platform with instant search, versioned pages,
+                and a component playground built in.
+              </p>
+              <div class="tech-tags">
+                <span>React</span><span>MDX</span><span>Node.js</span>
+              </div>
+              <a href="#" class="project-link"
+                >View project
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Capabilities</span>
+          <h2 class="reveal reveal-delay-1">Where I spend most of my time</h2>
+          <p class="reveal reveal-delay-2">
+            A quick read on daily tools — not a ranking, just where the hours
+            go.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <div class="reveal">
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg viewBox="0 0 24 24" fill="#61dafb">
+                    <circle cx="12" cy="12" r="2.2" />
+                    <g fill="none" stroke="#61dafb" stroke-width="1">
+                      <ellipse cx="12" cy="12" rx="10" ry="4.2" />
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="10"
+                        ry="4.2"
+                        transform="rotate(60 12 12)"
+                      />
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="10"
+                        ry="4.2"
+                        transform="rotate(120 12 12)"
+                      />
+                    </g></svg
+                  >React
+                </div>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="95"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg viewBox="0 0 24 24" fill="#f7df1e">
+                    <path
+                      d="M2 2h20v20H2V2zm10.5 15.6c.3.6.9 1.05 1.8 1.05.85 0 1.35-.4 1.35-.95 0-.65-.5-.9-1.35-1.25l-.45-.2c-1.3-.55-2.15-1.25-2.15-2.7 0-1.35 1.05-2.35 2.65-2.35 1.15 0 1.95.4 2.55 1.4l-1.4.9c-.3-.55-.65-.75-1.15-.75-.5 0-.85.3-.85.75 0 .55.35.75 1.15 1.1l.45.2c1.5.65 2.35 1.35 2.35 2.85 0 1.6-1.25 2.5-2.95 2.5-1.65 0-2.75-.8-3.25-1.8l1.35-.75zm-4.85.15c.25.45.5.85 1.05.85.55 0 .9-.2.9-1.05v-5.9h1.75v5.95c0 1.9-1.1 2.75-2.7 2.75-1.45 0-2.35-.75-2.75-1.6l1.75-.9z"
+                    /></svg
+                  >JavaScript
+                </div>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="92"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg viewBox="0 0 24 24" fill="#1572b6">
+                    <path
+                      d="M3.5 2h17l-1.55 17.5L12 21.8l-6.95-2.3L3.5 2zm4.4 4.05.25 2.85h8.5l-.28 3.1H8.4l.25 2.8h7.45l-.42 4.5-3.68 1.05-3.68-1.05-.24-2.65H5l.42 4.9L12 20.7l6-1.65.85-9.15H8.15l-.1-1.15h8.9l.25-2.7H7.9z"
+                    /></svg
+                  >CSS / Tailwind
+                </div>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="90"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal reveal-delay-1">
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg viewBox="0 0 24 24" fill="#e34c26">
+                    <path
+                      d="M3.5 2h17l-1.55 17.5L12 21.8l-6.95-2.3L3.5 2z"
+                    /></svg
+                  >HTML5
+                </div>
+                <span class="skill-pct">96%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="96"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#a78bfa"
+                    stroke-width="1.6"
+                  >
+                    <path d="M12 2l9 4.5v9L12 20l-9-4.5v-9L12 2z" /></svg
+                  >Next.js
+                </div>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-head">
+                <div class="skill-name">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#22d3ee"
+                    stroke-width="1.6"
+                  >
+                    <path d="M12 3v18M4 8l8-5 8 5M4 16l8 5 8-5" /></svg
+                  >Design Systems
+                </div>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" data-pct="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Get In Touch</span>
+          <h2 class="reveal reveal-delay-1">
+            Let's build something worth shipping
+          </h2>
+          <p class="reveal reveal-delay-2">
+            Have a project, a role, or just an idea worth talking through? My
+            inbox is open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="form-card reveal">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Ada Lovelace"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="ada@example.com"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                placeholder="Tell me a bit about your project..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%">
+              Send Message
+            </button>
+          </form>
+
+          <div class="contact-side reveal reveal-delay-1">
+            <h3>Find me elsewhere</h3>
+            <p>
+              I'm most responsive on email, but always happy to connect on
+              GitHub or LinkedIn too.
+            </p>
+            <div class="social-list">
+              <a href="#" class="social-link">
+                <span class="icon-box"
+                  ><svg viewBox="0 0 24 24" fill="var(--text)">
+                    <path
+                      d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"
+                    /></svg
+                ></span>
+                <span class="label"
+                  ><strong>GitHub</strong><span>@sample</span></span
+                >
+                <svg
+                  class="go"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a href="#" class="social-link">
+                <span class="icon-box"
+                  ><svg viewBox="0 0 24 24" fill="#0a66c2">
+                    <path
+                      d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.1 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.28 8.25h4.31v2.02h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.86c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23h-4.5V8.25z"
+                    /></svg
+                ></span>
+                <span class="label"
+                  ><strong>LinkedIn</strong><span>/in/sample</span></span
+                >
+                <svg
+                  class="go"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <a href="#" class="social-link">
+                <span class="icon-box"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="var(--text)"
+                    stroke-width="1.6"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <path d="M3 7l9 6 9-6" /></svg
+                ></span>
+                <span class="label"
+                  ><strong>Email</strong><span>hello@sample.dev</span></span
+                >
+                <svg
+                  class="go"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-inner">
+        <p>© 2026 Mahdi. Built with care, one component at a time.</p>
+        <a href="#hero" class="back-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
