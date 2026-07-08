@@ -1,49 +1,129 @@
-# Mahdi Mousavi — Portfolio
+# 🎙️ Portfolio Sample
 
-A modern, dark-mode-first personal portfolio for a frontend developer. Built as a single self-contained HTML file — no build step, no dependencies to install.
+---
 
-**Author:** Mahdi Mousavi
-**GitHub:** [@MahdMsv](https://github.com/MahdMsv)
+## 🌐 Live Demo
 
-## Features
+Experience the project live:
+👉 https://mahdmsv.github.io/Portfolio-Sample
 
-- Dark mode by default with a light/dark toggle
-- Glassmorphism cards, soft shadows, gradient accents
-- Animated hero with mouse-tracked spotlight and a typing code snippet
-- Scroll-triggered fade/slide-up reveal animations
-- Animated skill progress bars
-- Fully responsive (mobile-first) with a slide-in mobile nav
-- Respects prefers-reduced-motion
+---
 
-## Sections
+## 📌 About the Project
 
-1. Hero - name, role, intro, CTAs
-2. About - bio + skill icons (HTML, CSS, Tailwind, JavaScript, React)
-3. Projects - card grid with hover effects
-4. Skills - animated progress bars
-5. Contact - form + social links (GitHub, LinkedIn, Email)
+A modern, dark-mode-first personal portfolio designed to showcase frontend development skills in a clean and visually appealing way.
 
-## Tech Stack
+Built as a **single self-contained HTML file**, this project focuses on performance, simplicity, and elegant UI without relying on frameworks or build tools.
 
-- HTML5, CSS3 (custom properties, grid, flexbox)
-- Vanilla JavaScript (no frameworks, no build tools)
-- Google Fonts: Space Grotesk, Inter, JetBrains Mono
+It highlights real-world frontend concepts like animations, responsiveness, and user experience.
 
-## Getting Started
+---
 
-No installation needed.
+## ✨ Features of the Landing Page
 
-Just open index.html in your browser, or serve it locally:
+- 🌙 Dark mode by default + light/dark toggle
+- 🎨 Glassmorphism UI with soft shadows and gradients
+- ⚡ Smooth scroll animations (fade & slide-up)
+- 🧠 Typing animation in hero section
+- 📊 Animated skill progress bars
+- 📱 Fully responsive (mobile-first design)
+- 🎯 Clean and modern layout for portfolio presentation
 
-    npx serve .
+---
 
-## Customize
+## 🎨 Design System
 
-- Colors / fonts: edit the CSS custom properties at the top of the style block (:root and [data-theme="light"]).
-- Content: update the text directly inside each section in index.html.
-- Projects: duplicate a .project-card block inside #projects and update the title, description, tags, and gradient class (thumb-1, thumb-2, thumb-3).
-- Social links: update the href attributes in the .social-list inside #contact.
+- **Style:** Minimal, modern, dark UI
+- **Typography:** Space Grotesk, Inter, JetBrains Mono
+- **Colors:** Gradient accents + neutral dark palette
+- **UI Elements:** Glass cards, smooth transitions, subtle hover effects
 
-## License
+---
+
+## 🗂️ Project Structure
+
+```
+Portfolio-Sample/
+│── index.html
+│── README.md
+│── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Edge, Firefox)
+
+### Run Locally
+
+Open the project directly:
+
+```
+index.html
+```
+
+Or serve it locally:
+
+```
+npx serve .
+```
+
+---
+
+## 🧩 Tech Stack
+
+- HTML5
+- CSS3 (Flexbox, Grid, Custom Properties)
+- Vanilla JavaScript
+- Google Fonts
+
+---
+
+## 📱 Responsive Breakpoints
+
+| Breakpoint | Layout                                         |
+| ---------- | ---------------------------------------------- |
+| `> 900px`  | Full desktop multi-column layout               |
+| `≤ 900px`  | Tablet — single column sections, hamburger nav |
+| `≤ 600px`  | Mobile — condensed spacing, stacked components |
+
+---
+
+## 📸 Sections Preview
+
+- Hero Section
+- About Section
+- Projects Section
+- Skills Section
+- Contact Section
+
+---
+
+## 📄 License
 
 Free to use and modify for personal or commercial projects.
+
+---
+
+## 👤 Author
+
+**Mahdi Mousavi**
+
+- GitHub: [@MahdMsv](https://github.com/MahdMsv)
+
+---
+
+## 🌟 Show Your Support
+
+If you like this project, give it a ⭐ on GitHub — it means a lot!
+
+---
+
+Built with ❤️ and passion for clean UI.
