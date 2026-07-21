@@ -9,7 +9,7 @@ Experience the project live:
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 A modern, dark-mode-first personal portfolio designed to showcase frontend development skills in a clean and visually appealing way.
 
